@@ -22,7 +22,7 @@ with col1:
 with col2:
     st.subheader("📸 AI 視覺診斷")
 # 讀取並顯示你剛才上傳的照片
-st.image("4006.jpg", caption="現場實拍：爐頭孔洞因鏽蝕嚴重堵塞", use_container_width=True)
+st.image("IMG20260305161129.jpg", caption="現場實拍：爐頭孔洞因鏽蝕嚴重堵塞", use_container_width=True)
 
 st.divider()
 st.caption("AI 核心已啟動：CV2 版本 " + cv2.__version__)
